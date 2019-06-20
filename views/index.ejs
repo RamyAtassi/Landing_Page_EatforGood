@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="EatforGood, l'application qui estime l'empreinte carbone de ton alimentation"/>
+    <meta name="keywords" content="écologie, empreinte carbone, application mobile, fruits, légumes, Yuka, alimentation, bio, réchauffement climatique, transition écologique, pollution, gaz à effet de serre, changement climatique" />
+    <title>EatforGood</title>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab|Shadows+Into+Light+Two" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:600|Lora" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Yrsa&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="../stylesheets/flexslider.css" rel="stylesheet" >
+    <link href="../stylesheets/styles.css" rel="stylesheet">
+    <link href="../stylesheets/queries.css" rel="stylesheet">
+    <link href="../stylesheets/animate.css" rel="stylesheet">
+    <link href="../stylesheets/bootstrap.css" rel="stylesheet">
+    
+
+  </head>
+      <body>
+          <div class="fab">
+              <span class="fab-action-button">
+                    <i class="fab-action-button__icon"></i>
+                </span>
+              <ul class="fab-buttons">
+                <li class="fab-buttons__item">
+                  <a href="#" class="fab-buttons__link" data-tooltip="Facebook">
+                    <i class="icon-material icon-material_fb"></i>
+                  </a>
+                </li>
+                <li class="fab-buttons__item">
+                  <a href="#" class="fab-buttons__link" data-tooltip="Linkedin">
+                    <i class="icon-material icon-material_li"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <nav class="navbar">
+                <img class="logo" alt="logo" src="../images/logo.png" />
+                
+                <div class="displayFlexRow">
+                  <span class="close">
+                    <i class="fas fa-times"></i>
+                  </span>
+                  <span class="expand">
+                    <i class="fas fa-angle-double-right"></i>
+                  </span>
+                  <ul class="web">
+                    <li class="link">
+                      <a href="">Accueil</a>
+                    </li>
+                    <li class="link1">
+                      <a href="">Concept</a>
+                    </li>
+                    <li class="link2">
+                      <a href="">Apercu</a>
+                    </li>
+                    <li class="link3">
+                      <!-- <a target="_blank" href="/assets/Mentions_légales_EatforGood.pdf">CGU</a> -->
+                      <a  href="/cgu">CGU</a>
+                    </li>
+                  </ul>
+                  <ul class="mobile">
+                      <li>
+                        <a href="">Accueil</a>
+                      </li>
+                      <li>
+                        <a href="">Concept</a>
+                      </li>
+                      <li>
+                        <a href="">Apercu</a>
+                      </li>
+                      <li>
+                        <a target="_blank" href="../assets/Mentions_légales_EatforGood.pdf">CGU</a>
+                      </li>
+                    </ul>
+                    <div class="store-is-coming">
+                      <a 
+                      href="https://play.google.com/store/apps/details?id=com.EatforGood.EatforGood"
+                      >
+                      <img 
+                      src="../images/disponible-sur-android.png"
+                      alt="download on android" 
+                      style="margin: 0"
+                      />   
+                      </a> 
+                      
+                      <img 
+                      src="../images/disponible-sur-applestore.png" 
+                      alt="download on android" 
+                      />
+                    </div>
+
+                    </div>
+                </div>
+            </nav>
+            <div class="flex-direction row">
+              <div class="background section">
+                <div class="overlay"></div>
+                <div class="text-center inner">
+                  <h1 class="animated fadeInDown"><span class="title">
+                    <span class="first_letter">E</span>
+                    <span class="s_letter">a</span>
+                    <span class="t_letter">t</span>
+                    <span class="f_letter">f</span>
+                    <span class="five_letter">o</span>
+                    <span class="six_letter">r</span>
+                    <span class="seven_letter">g</span>
+                    <span class="e_letter">o</span>
+                    <span class="n_letter">o</span>
+                    <span class="t_letter">d</span>
+                  
+                  </h1>
+                    <p class="animated fadeInUp delay-1s subtitle"> L'application qui estime l'empreinte carbone de ton alimentation </p>
+                      <div class="row full-width">
+                          <form action="/inscription" method="POST" class="col-md-6 col-md-offset-3 input-group mb-3 displayFlexEmail">   
+                                  <input 
+                                    type="text" 
+                                    class="form-control" 
+                                    placeholder="john.doe@email.com" 
+                                    aria-label="Recipient's username" 
+                                    aria-describedby="button-addon2"
+                                    name="email"
+                                    value=""
+                                  >
+                                  <button 
+                                    class="btn btn-outline-secondary" 
+                                    id="button-addon2" 
+                                    type="submit" 
+                                  >
+                                    Je m'inscris
+                                  </button>       
+                          </form>
+                          <div class="row">
+                            <div class="col-md-8 col-md-offset-2 col-xs-12">
+                              <p class="bg-text"> Inscrivez-vous pour devenir beta-testeur!</p> 
+                            </div>
+                          </div>
+                      </div>    
+                </div>
+                <span class="arrow-right-1 arrow">
+                  <i class="fas fa-chevron-right"></i>
+                </span>
+                <p class="motto"> Pour une alimentation responsable</p>
+              </div>
+      
+
+        <section class="intro text-center section-padding section" id="intro" style="position:relative; display:flex; align-items: center;">
+            <div class="container">
+                <div class="row">
+                  <div class="col-md-12 col-sm-12">
+                    <h1 class="arrow">
+                      La raison d'être de cette application: 
+                    <div class="features-wrapper">
+                      <div class="col-md-4 wp2">
+                        <div class="icon">
+                          <i class="fa fa-leaf shadow"></i>
+                        </div>
+                        <h3 class="objectif">Informer le consommateur sur l'empreinte carbone des produits alimentaires</h2>
+                      </div>
+
+                      <div class="col-md-4 wp2 delay-05s">
+                        <div class="icon">
+                          <i class="fa fa-carrot shadow"></i>
+                        </div>
+                        <h3 class="objectif">Sensibiliser aux enjeux environnementaux</h2>
+                      </div>
+
+                      <div class="col-md-4 wp2 delay-1s">
+                        <div class="icon">
+                          <i class="fa fa-smog shadow"></i>
+                        </div>
+                        <h3 class="objectif">Favoriser une consommation respectueuse de l'environnement</h2>
+                      </div>
+                      <div class="clearfix"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <span class="arrow-left-1 arrow">
+                <i class="fas fa-chevron-left"></i>
+              </span>
+              <span class="arrow-right-2 arrow">
+                <i class="fas fa-chevron-right"></i>
+              </span>
+        </section>
+<!-- 
+        <section class="parralax text-center">
+
+        </section> -->
+        <section class="swag text-center section" style="position:relative">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-12">
+                <h1 class="description">Quelques aperçus des écrans</h1>
+                <div class="row">
+                  <div class="col-md-4 col-sm-4">
+                    <img class="wp7  delay-1s" alt="screen" src="../images/home.png" style="width:100%"/>
+                  </div>
+                  <div class="col-md-4 col-sm-4">
+                    <img class="wp7  delay-1s" alt="screen" src="../images/account.png" style="width:100%"/>
+                  </div>
+                  <div class="col-md-4 col-sm-4">
+                    <img class="wp7  delay-1s" alt="screen" src="../images/full_panier.png" style="width:100%"/>
+                  </div>
+                  <div class="col-md-4 col-sm-4">
+                    <img class="wp8  delay-1s" alt="screen" src="../images/search.png" style="width:100%"/>
+                  </div>
+                  <div class="col-md-4 col-sm-4">
+                    <img class="wp8  delay-1s"  alt="screen"src="../images/choix.png" style="width:100%"/>
+                  </div>
+                  <div class="col-md-4 col-sm-4">
+                    <img class="wp8  delay-1s" alt="screen" src="../images/result.png" style="width:100%"/>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <span class="arrow-left-2 arrow">
+            <i class="fas fa-chevron-left"></i>
+          </span>
+          <span class="arrow-left-3 arrow">
+            <i class="fas fa-angle-double-left"></i>
+          </span>
+        </section>
+            </div>
+        <!-- <footer>
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                <ul class="legals">
+                  <li><a href="/cgu">Mentions légales</a></li>
+                </ul>
+              </div>
+              <div class="col-md-6 credit">
+                <p>Fait dans le respect de l'environnement</p>
+              </div>
+            </div>
+          </div>
+        </footer> -->
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="../javascripts/waypoints.min.js"></script>
+        <script src="../javascripts/bootstrap.min.js"></script>
+        <script src="../javascripts/scripts.js"></script>
+        <script src="../javascripts/jquery.flexslider.js"></script>
+        <script src="../javascripts/modernizr.js"></script>
+        <script type="text/javascript" src="../javascripts/tarteaucitron.js"></script>
+        <!-- Include RGPD -->
+        <script type="text/javascript">
+        $('.carousel').carousel()
+        tarteaucitron.init({
+    	  "privacyUrl": "", /* Privacy policy url */
+    	  "hashtag": "#tarteaucitron", /* Open the panel with this hashtag */
+    	  "cookieName": "tartaucitron", /* Cookie name */
+    	  "orientation": "top", /* Banner position (top - bottom) */
+    	  "showAlertSmall": true, /* Show the small banner on bottom right */
+    	  "cookieslist": true, /* Show the cookie list */
+    	  "adblocker": false, /* Show a Warning if an adblocker is detected */
+    	  "AcceptAllCta" : true, /* Show the accept all button when highPrivacy on */
+    	  "highPrivacy": false, /* Disable auto consent */
+    	  "handleBrowserDNTRequest": false, /* If Do Not Track == 1, disallow all */
+    	  "removeCredit": false, /* Remove credit link */
+    	  "moreInfoLink": true, /* Show more info link */
+    	  "useExternalCss": false, /* If false, the tarteaucitron.css file will be loaded */
+    	  "readmoreLink": "/cookiespolicy" /* Change the default readmore link */
+        });
+
+        tarteaucitron.services.mycustomservice = {
+          "key": "mycustomservice",
+          "type": "social|analytic|ads|video|support",
+          "name": "MyCustomService",
+          "needConsent": true,
+          "cookies": ['cookie', 'cookie2'],
+          "readmoreLink": "/custom_read_more", // If you want to change readmore link
+          "js": function () {
+            "use strict";
+            // When user allow cookie
+          },
+          "fallback": function () {
+            "use strict";
+            // when use deny cookie
+          }
+};
+        </script>
+        <script src="https://kit.fontawesome.com/4a2122c832.js"></script>
+      </body>
+    </html>
+
